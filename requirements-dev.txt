@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 -r app/requirements.txt
+=======
+-r app/requirements.txt  # inclut les dépendances prod
+>>>>>>> b36a6ce (tests API)
 
 # Test et coverage
 pytest
@@ -17,5 +21,9 @@ mypy
 safety==1.10.3
 typer==0.9.0
 
+<<<<<<< HEAD
 # Optionnel: Docker utils
+=======
+# Optionnel: Docker utils si tu veux automatiser smoke tests
+>>>>>>> b36a6ce (tests API)
 docker
