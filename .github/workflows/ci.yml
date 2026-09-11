@@ -30,7 +30,7 @@ jobs:
 
       - name: Security check
         run: |
-          safety scan
+          safety check
 
   test:
     needs: security

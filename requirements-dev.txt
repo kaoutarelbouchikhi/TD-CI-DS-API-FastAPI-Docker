@@ -14,7 +14,7 @@ ruff
 mypy
 
 # Sécurité
-safety
+safety==2.3.5
 
 # Optionnel: Docker utils si tu veux automatiser smoke tests
 docker
