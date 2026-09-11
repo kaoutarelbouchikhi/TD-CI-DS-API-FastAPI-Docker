@@ -1,13 +1,6 @@
 fastapi
-<<<<<<< HEAD
 uvicorn[standard]
 pydantic
 scikit-learn
-scikit-learn
 pytest
-=======
-uvicorn(standard)
-pydantic
-scikit-learn
-pytest
->>>>>>> b36a6ce (tests API)
+

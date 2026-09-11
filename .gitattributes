@@ -23,4 +23,3 @@ __pycache__/
 
 # Docker
 *.pid
->>>>>>> b36a6ce (tests API)
