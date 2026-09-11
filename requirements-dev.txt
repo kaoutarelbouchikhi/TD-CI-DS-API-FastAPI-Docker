@@ -3,7 +3,7 @@
 # Test et coverage
 pytest
 pytest-asyncio
-httpx==0.23.3
+httpx
 pytest-cov
 coverage
 trio
@@ -15,6 +15,10 @@ mypy
 
 # Sécurité
 safety==2.3.5
+
+# Packaging
+setuptools>=83.0.0
+wheel>=0.46.2
 
 # Optionnel: Docker utils si tu veux automatiser smoke tests
 docker
