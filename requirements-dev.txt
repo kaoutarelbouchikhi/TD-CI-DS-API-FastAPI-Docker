@@ -16,9 +16,5 @@ mypy
 # Sécurité
 safety==2.3.5
 
-# Packaging
-setuptools>=83.0.0
-wheel>=0.46.2
-
 # Optionnel: Docker utils si tu veux automatiser smoke tests
 docker
