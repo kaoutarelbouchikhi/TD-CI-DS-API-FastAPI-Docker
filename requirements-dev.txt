@@ -15,7 +15,6 @@ mypy
 
 # Sécurité
 safety
-typer==0.9.0
 
 # Optionnel: Docker utils si tu veux automatiser smoke tests
 docker
