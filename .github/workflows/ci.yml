@@ -2,9 +2,9 @@ name: CI–FastAPI
 
 on:
   pull_request:
-    branches: [main, dev]
+    branches: [main]
   push:
-    branches: [main, dev]
+    branches: [dev]
 
 permissions:
   contents: read
@@ -31,4 +31,4 @@ jobs:
       - name: Run tests
         run: |
           export PYTHONPATH=$(pwd)
-          pytest --maxfail=1 --disable-warnings -q
+          pytest --maxfail=1 --disable-warnings -q --cov=. --cov-report=term-missing
