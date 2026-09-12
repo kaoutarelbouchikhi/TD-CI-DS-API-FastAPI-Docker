@@ -1,0 +1,20 @@
+-r app/requirements.txt  # inclut les dépendances prod
+
+# Test et coverage
+pytest
+pytest-asyncio
+httpx==0.23.3
+pytest-cov
+coverage
+trio
+
+# Lint et type check
+flake8
+ruff
+mypy
+
+# Sécurité
+safety==2.3.5
+
+# Optionnel: Docker utils si tu veux automatiser smoke tests
+docker
