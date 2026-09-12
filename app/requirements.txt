@@ -3,4 +3,4 @@ uvicorn[standard]
 pydantic
 scikit-learn
 pytest
-
+httpx==0.23.3
