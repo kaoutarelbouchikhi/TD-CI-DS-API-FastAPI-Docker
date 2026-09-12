@@ -3,7 +3,7 @@
 # Test et coverage
 pytest
 pytest-asyncio
-httpx
+httpx==0.23.3
 pytest-cov
 coverage
 trio
