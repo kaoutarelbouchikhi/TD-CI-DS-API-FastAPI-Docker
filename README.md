@@ -80,3 +80,4 @@ Technologies Used
 
 ![CI](https://github.com/jao81/TD-CI-CD-Data-Science-API-FastAPI-Docker/actions/workflows/ci.yml/badge.svg)
 >>>>>>> b36a6ce (tests API)
+
