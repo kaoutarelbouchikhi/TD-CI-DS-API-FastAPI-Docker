@@ -1,8 +1,8 @@
-name: CD – FastAPI
+name: CD–FastAPI
 
 on:
   workflow_run:
-    workflows: ["CI – FastAPI"]
+    workflows: ["CI–FastAPI"]
     types:
       - completed
 
