@@ -7,7 +7,6 @@ httpx==0.23.3
 pytest-cov
 coverage
 trio
-http2x
 
 # Lint et type check
 flake8
